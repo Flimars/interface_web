@@ -9,9 +9,29 @@
 </head>
 <body>
        <div class="everything">
-        <header>
-            <div class="logo">Logo aqui</div>
-            <div class="space">Banner ou Nome Empresa</div>
+         <header>
+            <div class="logo">
+                <figure>
+                    <img class="banner" src="./image/logoEnel.png" alt="Logomarca" style="height: 98px; width: 250px;">
+                </figure>
+            </div>
+            <div class="space">
+                 Enel Soluçoes Elétricas
+                <!-- <figure>
+                    <img class="banner" src="./image/site_main2.png" alt="foto-banner" style="height:98px; width: 255px;">
+                </figure> -->
+                <form class="login">
+                <fieldset>
+                   <legenda>Entrar</legenda><br>
+                   <label for="d1">Login :</label>
+                   <input id="d1" type="text" name="nome" size="10"
+                     autofocus placeholder="Login" required maxlength="12"><br>
+                   <label for="d2">Senha:</label>
+                   <input id="d2" type="password" name="senha" autofocus placeholder="Senha" required maxlength="8"><br>
+                   <input type="submit" value="Enviar">
+               </fieldset>
+               </form>
+            </div>            
         </header>
         <nav>
             <ul>
@@ -29,23 +49,43 @@
                 <li><a href="contact.htm">Contato</a></li>
             </ul>
         </nav>
-       <main>Principal</main>
+       <main><br>
+        <form class="service">
+            <legenda><b>Nossos Serviços:</b></legenda><br><br>
+            <input type="checkbox" name="serv" value="aut">AUTOMAÇÃO INDSUSTRIAL<br>
+            <input type="checkbox" name="serv" value="dim">DIMENSIONAMENTO DE REDE<br>
+            <input type="checkbox" name="serv" value="isn">INSTALAÇÕES DE BAIXA E MÉDIA TENSÃO<br>
+            <input type="checkbox" name="serv" value="pro">PROJETOS<br>
+            <input type="checkbox" name="serv" value="pro">SISTEMA FOTOVOTAICO<br>
+            <input type="checkbox" name="serv" value="sup">SUPORTE TÉCNICO<br><br>
+            Solicite Orçamento:<br>
+            <select name="dis">
+            <option>Por Telefone</option>
+            <option>Por E-mail</option>
+            </select><br><br>
+            Telefone:<input type="tel" name =" telefone "><br>
+            Email   :<input type="email" name="email"><br><br>
+            Comentário:<br>
+            <textarea name="comentario" cols="50" rows="5">Comente Aqui:</textarea>
+            <input type="submit" name="enviar" value="Enviar"><br>
+        </form>    
+        </main>
        <footer>
             <h3 id="marca"><b>Enel Soluções Elétricas</b></h3> <br>
             <address class="local">Porto de Gale Bussinnes Center<br>
            Endereço: Rua Barão de Cotegipe, 443 - Loja 14 - Centro, Rio Grande - RS, 96200-290<br>
            Fone: (53) 3232-9110 - E-mail: contato@ese.com.br </address><br>
-         <!--  <div class="container">     
-                <div>
-                    <img class="rede1" src="./image/facebook.png" alt="facebook">
-                </div>
-                <div>
-                   <img class="rede2" src="./image/instagran.png" alt="instagran">
-                </div>
-                <div>
-                   <img class="rede3" src="./image/whatsapp.png" alt="whatsapp">
-                </div>
-         </div>             -->
+          <section class="flex" style="padding-top: 0px; padding-left:2px; margin-left: 480px; ">  
+                <figure>
+                    <img src="./image/facebook.png" alt="facebook" style="padding-left: 5px; padding-right: 5px;">
+                </figure>
+                <figure>
+                   <img src="./image/instagran.png" alt="instagran" style="padding-left: 5px; padding-right: 5px;">
+                </figure>
+                <figure>
+                   <img src="./image/whatsapp.png" alt="whatsapp" style="padding-left: 5px; padding-right: 5px;">
+                </figure>
+            </section>            
 
        </footer>
     </div>

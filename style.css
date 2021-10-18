@@ -15,17 +15,17 @@
 }
 
 header {
-    height: 80px;
+    height: 100px;/* 80px */
     width: 1100px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 4px;
-    padding: 8px;
+    margin-bottom: 4px;/* 4 */
+    padding-bottom: 8px;/* 8px */
     border: 2px solid black;
 }
 /* box-model da logomarca */
 .logo {
-    height: 80px;
+    height: 98px;/* 80px */
     width: 250px;
     float: left;
     margin: 2px;
@@ -34,12 +34,39 @@ header {
 }
 /* box-model do banner */
 .space {
-    height: 80px;
+    height: 98px;/* 80px */
     width: 830px;
     float: left;
     margin: 2px;
     border: 2px solid black;
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+    font-weight: bold;
+
 }
+
+/* div.fantasia {
+    color: black;
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    font: 28;
+    padding-left: 30px ;
+}
+ */
+/* img.banner {
+    height: 80px;
+    width: 830px;
+} */
+
+.login {
+    height: 80px;
+    width: 270px;
+    float: left;
+    margin: 2px;
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+    padding-left:540px;
+}
+
 
 nav {
     width: 1120px;
@@ -51,7 +78,7 @@ nav {
 }
 
 main {
-    height: 600px;
+    height: 580px;/* 600px */
     width: 1100px;
     margin-left: auto;
     margin-right: auto;
@@ -121,8 +148,7 @@ div.titulo {
     font-weight: bold;
     font-size: large;
     font: 28;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 p.quemsomos {
@@ -192,16 +218,18 @@ figcaption {
 }
 
 .rede {   
-    /* display: table-cell; */
+    display: table-cell;
     float: left;
+    margin: 5px;
+
 }
     
   
 
-/* figure.flex>div {
+figure.flex>div {
     flex: 1 1 200px;
     margin: 0px;
-} */
+}
 /* CSS FLEXBOX 1 */
 
 .flex {
@@ -216,3 +244,44 @@ figcaption {
     flex: 1 1 200px;
     margin: 10px;
 }
+
+.service {
+    font: 20;
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+    font-size: x-large;
+    text-align: justify;
+    padding-left: 6em;   
+
+}
+
+table {
+    border: 2px solid black;
+    background-color: rgb(59, 55, 55);
+    font-size:22px ;/* Tamano da grade e da fonte. */
+    margin: auto;
+    padding-top: 10px;
+}    
+
+caption {
+    background-color:hsl(14, 90%, 49%);
+    border: 2px solid rgb(59, 55, 55);
+    color: black;
+    font-weight: bold;
+}
+
+thead,
+tfoot {
+    background-color: whitesmoke;
+    color: black;
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+}
+
+tbody td {
+    background-color: whitesmoke;
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+}
+
+/* div.videos{
+    table-layout: auto;
+    float: left;
+} */
